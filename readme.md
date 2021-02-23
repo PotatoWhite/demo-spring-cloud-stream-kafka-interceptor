@@ -6,7 +6,7 @@
 
 - 전반적으로 @EnableBinding 이나 설정용도의 @Output, @Input 등의 설정들이 간소화 되었다는 느낌이다.
 
-### 사전준비
+### Prerequisites
 
 ```shell
 docker run -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3-management 
