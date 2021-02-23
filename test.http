@@ -1,0 +1,8 @@
+###
+POST localhost:8080/samples
+Content-Type: application/json
+
+{
+  "id": 1,
+  "message": "hello world"
+}

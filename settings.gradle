@@ -1,0 +1,3 @@
+rootProject.name = 'demo-spring-cloud-stream'
+include("stream-producer")
+include("stream-consumer")

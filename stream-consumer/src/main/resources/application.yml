@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    function:
+      definition: sample-stream
+    stream:
+      bindings:
+        sample-stream-in-0:
+          destination: sample-topic
+          group: potato-group
+          durableSubscription: true
+  rabbitmq:
+    addresses: localhost
+    username: admin
+    password: admin
