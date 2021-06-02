@@ -8,7 +8,3 @@ spring:
           destination: sample-topic
           group: potato-group
           durableSubscription: true
-  rabbitmq:
-    addresses: localhost
-    username: admin
-    password: admin
